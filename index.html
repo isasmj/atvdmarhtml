@@ -124,6 +124,36 @@
             transition: background 0.3s ease;
         }
 
+        table {
+            background-color: #86b6ff;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        tr,
+        th {
+            background-color: #ddc9ff;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+            max-width: 500px;
+            margin: 15px auto;
+        }
+
+        tr,
+        td {
+            background-color: #8e72be;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+            max-width: 500px;
+            margin: 15px auto;
+        }
+
 
         footer {
             font-size: 14px;
@@ -238,61 +268,62 @@
                 <h2>Listas Aninhadas</h2>
 
                 <article>
-                <h2>Itens para Viagem</h2>
-                <ul>
-                    <li>Documentos
-                        <ul>
-                            <li>Passaporte</li>
-                            <li>Carteira de Identidade</li>
-                            <li>Vistos</li>
-                        </ul>
-                    <li>Roupas
-                        <ul>
-                            <li>Camisetas</li>
-                            <li>Calças</li>
-                            <li>Sapatos</li>
-                        </ul>
-                    <li>Eletrônicos
-                        <ul>
-                            <li>Carregador de celular</li>
-                            <li>Fones de ouvido</li>
-                            <li>Adaptador de tomada</li>
-                        </ul>
-                </ul>
-                </ul>
+                    <h3>Itens para Viagem</h3>
+                    <ul>
+                        <li>Documentos
+                            <ul>
+                                <li>Passaporte</li>
+                                <li>Carteira de Identidade</li>
+                                <li>Vistos</li>
+                            </ul>
+                        <li>Roupas
+                            <ul>
+                                <li>Camisetas</li>
+                                <li>Calças</li>
+                                <li>Sapatos</li>
+                            </ul>
+                        <li>Eletrônicos
+                            <ul>
+                                <li>Carregador de celular</li>
+                                <li>Fones de ouvido</li>
+                                <li>Adaptador de tomada</li>
+                            </ul>
+                    </ul>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Preparação de uma receita</h3>
+                    <ol start="1" ;>
+                        <li>Ingredientes
+                            <ol>
+                                <li>Farinha de trigo</li>
+                                <li>Açúcar</li>
+                                <li>Ovos</li>
+                            </ol>
+                        <li>Preparo
+                            <ol>
+                                <li>Misturar os ingredientes secos</li>
+                                <li>Adicionar os ovos e misturar bem</li>
+                                <li>Colocar a massa na forma</li>
+                            </ol>
+                        <li>Cozimento
+                            <ol>
+                                <li>Pré-aquecer o forno a 180°C</li>
+                                <li>Assar por 30 minutos</li>
+                                <li>Deixar esfriar antes de servir</li>
+                            </ol>
+                </article>
+
+                <img src=https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczkxbXlocXpyOTN4Y2UzZ3prN2h0eGFtdWtuNXA2MXUxeGV3cDdyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZgULzq4qhqafhSCBA0/giphy.gif
+                    alt="Gato vacinado" width=400" />
+
             </article>
+
             <article>
-                <h2>Preparação de uma receita</h2>
-                <ol start="1" ;>
-                    <li>Ingredientes
-                        <ol>
-                            <li>Farinha de trigo</li>
-                            <li>Açúcar</li>
-                            <li>Ovos</li>
-                        </ol>
-                    <li>Preparo
-                        <ol>
-                            <li>Misturar os ingredientes secos</li>
-                            <li>Adicionar os ovos e misturar bem</li>
-                            <li>Colocar a massa na forma</li>
-                        </ol>
-                    <li>Cozimento
-                        <ol>
-                            <li>Pré-aquecer o forno a 180°C</li>
-                            <li>Assar por 30 minutos</li>
-                            <li>Deixar esfriar antes de servir</li>
-                        </ol>
-            </article>
 
-                            <img src=https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczkxbXlocXpyOTN4Y2UzZ3prN2h0eGFtdWtuNXA2MXUxeGV3cDdyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZgULzq4qhqafhSCBA0/giphy.gif
-                                alt="Gato vacinado" width=400" />
-
-            </article>
-
-            <article>
-                
-                <h2>Lista Ordenadas</h2>
-
+                <h2>Combinação de Listas Ordenadas e Não Ordenadas</h2>
+                <article>
                 <h3>Itens para Compras</h3>
 
                 <ol start="1" ;>
@@ -309,9 +340,12 @@
                             <li>Protetor Solar</li>
                         </ul>
                 </ol>
+                </article>
+                <article>
                 <ul>
+                    <h3>Etapas para Planejar uma Festa</h3>
                     <li>Escolher a Data</li>
-                    <li>Etapas para Planejar uma Festa
+                    <li>Preparar a Lista de Convidados
                         <ol>
                             <li>Amigos</li>
                             <li>Família</li>
@@ -324,14 +358,11 @@
                             <li>Prato Principal</li>
                         </ol>
                 </ul>
-            </article>
+                </article>
+
             <article>
-                <header>
-                    <h1>Exercicio 5</h1>
-                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW01MGJjaXlrZThzMGFjcGxoMjJvY2M2aDBjbzY2OXFnZmh0cndoaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/v8jUfaclrsG9x8At9Z/giphy.gif"
-                        alt="GIF de estudo">
-                </header>
-                <h2>Itens para Compras</h2>
+        
+                <h2>Tabela de Atividades</h2>
                 <table>
                     <thead>
                         <tr>
